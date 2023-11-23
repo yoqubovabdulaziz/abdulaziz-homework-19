@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <link 
+    rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="loader">
+        <div class="loader"></div>
+    </div>
+    <a id="backtop" href="#">
+        <i class="fa-solid fa-circle-chevron-up fa-bounce"></i>
+    </a>
+    <header id="navbar">
+        <nav class="container navigator">
+            <div class="logo">
+                <img class="logo__img" src="images/logo.svg" alt="logo">
+                <h1 class="logo__text">Product</h1>
+            </div>
+            <ul class="nav__list">
+                <li class="nav__items"><a href="#product" class="nav__link">Product</a></li>
+                <li class="nav__items"><a href="#about" class="nav__link">Customers</a></li>
+                <li class="nav__items"><a href="#price" class="nav__link">Pricing</a></li>
+                <li class="nav__items"><a href="#strategies" class="nav__link">Resources</a></li>
+                <li><a href="" class="nav__link-sign">Sign In</a></li>
+                <li><a href="" class="nav__link-sign">Sign Up</a></li>
+                <li>
+                    <button  id="mode-btn">
+                        <img src="images/dark.svg" alt="">
+                    </button>
+                </li>
+            </ul>
+            <div class="toggle">
+                <button id="dark-btn">
+                    <img src="images/dark.svg" alt="">
+                </button>
+                <button id="navbar__open" class="hamburger">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+    <div id="navbar__responsive">
+        <ul class="navbar__list">
+            <button id="navbar__close"><i class="fa-regular fa-circle-xmark fa-fade"></i></button>
+            <li class="navbar__items"><a href="" class="navbar__link">Product</a></li>
+            <li class="navbar__items"><a href="" class="navbar__link">Customers</a></li>
+            <li class="navbar__items"><a href="" class="navbar__link">Pricing</a></li>
+            <li class="navbar__items"><a href="" class="navbar__link">Resources</a></li>
+            <li class="navbar-items"><a href="" class="navbar-sign-in">Sign In</a></li>
+            <li class="navbar-items"><a href="" class="navbar-sign-in btnnn">Sign Up</a></li>
+        </ul>
+    </div>
+    <main>
+        <section id="home">
+            <div class="container home">
+                <div class="home__left">
+                    <h1 class="home__title">Work at the speed of thought</h1>
+                    <p class="home__paragraph">Tools, tutorials, design and innovation experts, all in one place! The most intuitive way to imagine your next user experience.</p>
+                    <div class="home__btn__row">
+                        <button class="home__btn--started">Get started</button>
+                        <button class="home__btn--watch"><img src="images/start-button.svg" alt="">Watch the Video</button>
+                    </div>
+                </div>
+                <div class="home__right">
+                    <img src="images/people.png" alt="people">
+                </div>
+            </div>
+        </section>
+        <section id="product">
+            <div class="container product">
+                <h1 class="product__title">Product was Built Specifically for You</h1>
+                <div class="product__row">
+                    <div class="product__card">
+                        <img src="images/click.svg" alt="click">
+                        <h2 class="product__card__title">First click tests</h2>
+                        <p class="product__card__paragraph">While most people enjoy casino gambling,</p>
+                    </div>
+                    <div class="product__card">
+                        <img src="images/survey.svg" alt="survey">
+                        <h2 class="product__card__title">Design surveys</h2>
+                        <p class="product__card__paragraph">Sports betting, lottery and bingo playing for the fun</p>
+                    </div>
+                    <div class="product__card">
+                        <img src="images/like.svg" alt="like">
+                        <h2 class="product__card__title">Preference tests</h2>
+                        <p class="product__card__paragraph">The Myspace page defines the individual.</p>
+                    </div>
+                    <div class="product__card">
+                        <img src="images/time.svg" alt="time">
+                        <h2 class="product__card__title">Five second tests</h2>
+                        <p class="product__card__paragraph">Personal choices and the overall personality of the person.</p>
+                    </div>
+                </div>
+                <div class="product__btn">
+                    <button class="product__button">SIGN UP NOW</button>
+                </div>
+            </div>
+        </section>
+        <section id="management">
+            <div class="container management">
+                <div class="management__left">
+                    <h4>Effortless Validation for</h4>
+                    <h2>Management</h2>
+                    <p>The Myspace page defines the individual, his or her characteristics, traits, personal choices and the overall personality of the person.</p>
+                    <h4>Accessory makers</h4>
+                    <p>While most people enjoy casino gambling, sports betting, lottery and bingo playing for the fun</p>
+                    <h4>Alterationists</h4>
+                    <p>If you are looking for a new way to promote your business that won’t cost you more money,</p>
+                </div>
+                <div class="management__right">
+                    <img src="images/document.png" alt="document">
+                </div>
+            </div>
+        </section>
+        <section id="support">
+            <div class="container support">
+                <div class="support__right">
+                    <h4>Easier decision making for</h4>
+                    <h2>Customer Support</h2>
+                    <p class="support__paragraph">The Myspace page defines the individual, his or her characteristics, traits, personal choices and the overall personality of the person.</p>
+                    <div class="support__right__advice">
+                        <img src="images/orange-tick.svg" alt="orange-tick">
+                        <p>Never worry about overpaying for your energy again.</p>
+                    </div>
+                    <div class="support__right__advice">
+                        <img src="images/red-tick.svg" alt="red-tick">
+                        <p>We will only switch you to energy companies that we trust and will treat you right</p>
+                    </div>
+                    <div class="support__right__advice">
+                        <img src="images/blue-tick.svg" alt="blue-tick">
+                        <p>We track the markets daily and know where the savings are.</p>
+                    </div>
+                </div>
+                <div class="support__left">
+                    <img src="images/computer.png" alt="computer">
+                </div>
+            </div>
+        </section>
+        <section id="collabrative">
+            <div class="container collabrative">
+                <div class="collabrative__left">
+                    <h4>Optimisation for</h4>
+                    <h2>Collaborative</h2>
+                    <p>Few would argue that, despite the advancements of feminism over the past three decades, women still face a double standard when it comes to their behavior.</p>
+                    <h4>Accessory makers</h4>
+                    <p>While most people enjoy casino gambling, sports betting, lottery and bingo playing for the fun</p>
+                    <h4>Alterationists</h4>
+                    <p>If you are looking for a new way to promote your business that won’t cost you more money,</p>
+                </div>
+                <div class="collabrative__right">
+                    <img src="images/collabrative-img.png" alt="photos">
+                </div>
+            </div>
+        </section>
+        <section id="process">
+            <div class="container process">
+                <div class="process__header">
+                    <h1>Quick & Easy Process</h1>
+                    <p class="process__paragraph">Do you require some help for your project: Conception workshop, prototyping, marketing strategy, landing page, Ux/UI?</p>
+                </div>
+                <div class="process__row">
+                    <div class="process__card">
+                        <img src="images/avatar-1.svg" alt="avatar">
+                        <p>I can take care of your pitch</p>
+                    </div>
+                    <div class="process__card">
+                        <p>I can prototype your app</p>
+                        <img src="images/avatar-2.svg" alt="avatar">
+                    </div>
+                    <div class="process__card process-rever">
+                        <img src="images/avatar-3.svg" alt="avatar">
+                        <p>I can design you website</p>
+                    </div>
+                    <div class="process__card process-rever">
+                        <p>I can help marketing strategy</p>
+                        <img src="images/avatar-4.svg" alt="avatar">
+                    </div>
+                </div>
+                <div class="process__button">
+                    <button class="process__btn">Contact our expert</button>
+                </div>
+            </div>
+        </section>
+        <section id="strategies">
+            <div class="container strategies">
+                <h1 class="strategies__title">Contents Strategies</h1>
+                <p class="strategies__paragraph">We focus on ergonomics and meeting you where you work. It's only a keystroke away.</p>
+                <div id="team-carousel" class="owl-carousel owl-theme">
+                    <div class="strategies__card">
+                        <img src="images/strategies-1.png" alt="business">
+                        <p>By <span>Wahid Ari</span> | 03 March 2019</p>
+                        <h2>Increasing Prosperity With Positive Thinking</h2>
+                    </div>
+                    <div class="strategies__card">
+                        <img src="images/strategies-2.png" alt="business">
+                        <p>By <span>Wahid Ari</span> | 03 March 2019</p>
+                        <h2>Motivation Is The First Step To Success</h2>
+                    </div>
+                    <div class="strategies__card">
+                        <img src="images/strategies-3.png" alt="business">
+                        <p>By <span>Wahid Ari</span> | 03 March 2019</p>
+                        <h2>Success Steps For Your Personal Or Business</h2>
+                    </div>
+                    <div class="strategies__card">
+                        <img src="images/strategies-3.png" alt="business">
+                        <p>By <span>Wahid Ari</span> | 03 March 2019</p>
+                        <h2>Success Steps For Your Personal Or Business</h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="price">
+            <div class="container price">
+                <h1 class="price__title">Price Table</h1>
+                <p class="price__paragraph">We offer competitive price</p>
+                <div class="price__row">
+                    <div class="price__card">
+                        <h2>Free</h2>
+                        <h3>Brief price description</h3>
+                        <div class="price__card__dollar">
+                            <p>0</p>
+                            <div class="price__card__month">
+                                <h5>$</h5>
+                                <h6>Per / month</h6>
+                            </div>
+                        </div>
+                        <p class="price__advice">Only 2 Operators</p>
+                        <p class="price__advice">Notifications</p>
+                        <p class="price__advice">Landing Pages</p>
+                        <button class="price__btn">Order Now</button>
+                    </div>
+                    <div class="price__card">
+                        <h2>Standard</h2>
+                        <h3>Brief price description</h3>
+                        <div class="price__card__dollar">
+                            <p>5</p>
+                            <div class="price__card__month">
+                                <h5>$</h5>
+                                <h6>Per / month</h6>
+                            </div>
+                        </div>
+                        <p class="price__advice">5+ Operators</p>
+                        <p class="price__advice">Notifications</p>
+                        <p class="price__advice">Landing Pages</p>
+                        <button class="price__btn">Order Now</button>
+                    </div>
+                    <div class="price__card">
+                        <h2>Premium</h2>
+                        <h3>Brief price description</h3>
+                        <div class="price__card__dollar">
+                            <p>10</p>
+                            <div class="price__card__month">
+                                <h5>$</h5>
+                                <h6>Per / month</h6>
+                            </div>
+                        </div>
+                        <p class="price__advice">10+ Operators</p>
+                        <p class="price__advice">Notifications</p>
+                        <p class="price__advice">Landing Pages</p>
+                        <button class="price__btn">Order Now</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <div class="container about">
+                <h1 class="about__title">What Clients Say</h1>
+                <p class="about__paragraph">Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics</p>
+                <div class="about__row">
+                    <div class="about__card">
+                        <img src="images/stars.svg" alt="stars">
+                        <p>Product helps you see how many more days you need to work to reach your financial goal.</p>
+                        <div class="about__card__footer">
+                            <img src="images/about-avatar1.svg" alt="avatar">
+                            <div>
+                                <h4>Wahid Ari</h4>
+                                <p class="designer">Designer</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about__card">
+                        <img src="images/stars.svg" alt="stars">
+                        <p>Product helps you see how many more days you need to work to reach your financial goal.</p>
+                        <div class="about__card__footer">
+                            <img src="images/about-avatar2.svg" alt="avatar">
+                            <div>
+                                <h4>Wahid Ari</h4>
+                                <p class="designer">Designer</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about__card">
+                        <img src="images/stars.svg" alt="stars">
+                        <p>Product helps you see how many more days you need to work to reach your financial goal.</p>
+                        <div class="about__card__footer">
+                            <img src="images/about-avatar3.svg" alt="avatar">
+                            <div>
+                                <h4>Wahid Ari</h4>
+                                <p class="designer">Designer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="join">
+            <div class="container-1008 join">
+                <div class="join__left">
+                    <h2>Join 100 Compannies who boost their business with Product</h2>
+                    <div class="join__btn">
+                        <button class="join__left__btn">Get This</button>
+                    </div>
+                </div>
+                <div class="join__right">
+                    <img src="images/join.png" alt="">
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer id="footer">
+        <div class="container footer">
+            <div class="footer__logo">
+                <img src="images/footer-logo.svg" alt="logo">
+                <div class="footer__brands">
+                    <img src="images/instagram.svg" alt="instagram">
+                    <img src="images/facebook.svg" alt="facebook">
+                    <img src="images/twitter.svg" alt="twitter">
+                </div>
+            </div>
+            <div class="footer__row">
+                <ul class="footer__list">
+                    <li>
+                        <p>Resource</p>
+                    </li>
+                    <li class="footer__items"><a href="#" class="footer__link">About Us</a></li>
+                    <li class="footer__items"><a href="#" class="footer__link">Blog</a></li>
+                    <li class="footer__items"><a href="#" class="footer__link">Contact</a></li>
+                    <li class="footer__items"><a href="#" class="footer__link">FAQ</a></li>
+                </ul>
+                <ul class="footer__list">
+                    <li>
+                        <p>Legal Stuff</p>
+                    </li>
+                    <li class="footer__items"><a href="" class="footer__link">Disclaimer</a></li>
+                    <li class="footer__items"><a href="" class="footer__link">Financing</a></li>
+                    <li class="footer__items"><a href="" class="footer__link">Privacy Policy</a></li>
+                    <li class="footer__items"><a href="" class="footer__link">Terms of Service</a></li>
+                </ul>
+            </div>
+            <div class="footer__end">
+                <h2>knowing you're always on the best energy deal.</h2>
+                <form>
+                    <input type="text">
+                    <div class="footer__button">
+                        <button class="footer__btn">Sign up Now</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="footer__last">
+            <p>Made With Love By Figmaland All Right Reserved</p>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
+        integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
