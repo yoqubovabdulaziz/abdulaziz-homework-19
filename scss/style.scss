@@ -2,8 +2,9 @@
 * {
     margin: 0;
     padding: 0;
-    // transition: 0.5s;
 }
+$primary-color: #02897A;
+
 html {
     scroll-behavior: smooth;
 }
@@ -71,7 +72,7 @@ button {
         width: 100px;
         font-family: Poppins;
         font-weight: 400;
-        background-color: #02897A;
+        background-color: $primary-color;
         color: white;
         text-align: center;
         margin-bottom: 10px;
@@ -85,7 +86,7 @@ button {
         font-size: 16px;
         font-weight: 600;
         padding: 7px 23px;
-        border: 1px solid #02897A;
+        border: 1px solid $primary-color;
         border-radius: 4px;
         transition: 0.3s;
         margin-bottom: 10px;
@@ -161,7 +162,7 @@ header {
                 line-height: 28px;
             }
             .nav__link:hover {
-                color: #02897A;
+                color: $primary-color;
             }
             .nav__link-sign {
                 color: #173A56;
@@ -174,7 +175,7 @@ header {
                 transition: 0.3s;
             }
             .nav__link-sign:hover {
-                background-color: #02897A;
+                background-color: $primary-color;
                 color: #FFF;
             }
             #mode-btn {
@@ -259,12 +260,12 @@ header {
             font-weight: 700;
             padding: 15px 41px;
             border-radius: 4px;
-            background-color: #02897A;
+            background-color: $primary-color;
         }
         .home__btn--watch {
             display: flex;
             align-items: center;
-            color: #02897A;
+            color: $primary-color;
             font-family: Poppins;
             font-size: 16px;
             font-weight: 600;
@@ -333,7 +334,7 @@ header {
         font-weight: 700;
         padding: 14.5px 33px;
         border-radius: 4px;
-        background-color: #02897A;
+        background-color: $primary-color;
     }
 }
 // PRODUCT END
@@ -526,7 +527,7 @@ header {
         font-weight: 700;
         padding: 14.5px 30.5px;
         border-radius: 4px;
-        background-color: #02897A;
+        background-color: $primary-color;
     }
 }
 // PROCESS END
@@ -585,7 +586,7 @@ header {
         padding-bottom: 40px;
     }
     &__card:hover h2 {
-        color: #02897A;
+        color: $primary-color;
     }
 }
 #team-carousel .owl-dot span {
@@ -595,7 +596,7 @@ header {
     transition: 0.5s;
 }
 #team-carousel .owl-dot.active span {
-    background-color: #02897A;
+    background-color: $primary-color;
     width: 30px;
     height: 20px;
 }
@@ -665,7 +666,7 @@ header {
             gap: 8px;
         }
         &__dollar p {
-            color: #02897A;
+            color: $primary-color;
             text-align: center;
             font-family: Poppins;
             font-size: 76px;
@@ -675,7 +676,7 @@ header {
         }
         h5 {
             text-align: start;
-            color: #02897A;  
+            color: $primary-color;  
             font-family: Poppins;
             font-size: 24px;
             font-weight: 700;
@@ -707,19 +708,19 @@ header {
             font-weight: 600;
             padding: 11px 19px;
             border-radius: 8px;
-            background-color: #02897A;
+            background-color: $primary-color;
             margin-top: 38px;
         }
     }
     &__card:hover {
-        background-color: #02897A;
+        background-color: $primary-colo;
     }
     &__card:hover * {
         color: #FFF;
     }
     &__card:hover button {
         background-color: #fff;
-        color: #02897A;
+        color: $primary-color;
     }
 }
 // PRICE END
@@ -785,7 +786,7 @@ header {
             align-items: center;
             gap: 14px;
             h4 {
-                color: #02897A;
+                color: $primary-color;
                 font-family: Poppins;
                 font-size: 16px;
                 font-weight: 600;
@@ -815,7 +816,7 @@ header {
 }
 .join {
     padding: 49px 36px 56px 51px;
-    background-color: #02897A;
+    background-color: $primary-color;
     border-radius: 32px;
     h2 {
         color: #FFF;
@@ -827,7 +828,7 @@ header {
         margin-bottom: 40px;
     }
     button {
-        color: #02897A;
+        color: $primary-color;
         font-family: Poppins;
         font-size: 20px;
         font-weight: 600;
@@ -915,7 +916,7 @@ header {
         font-weight: 700;
         padding: 8px 15px;
         border-radius: 4px;
-        background-color: #02897A;
+        background-color: $primary-color;
     }
     &__last {
         text-align: center;
@@ -927,7 +928,6 @@ header {
     }
 }
 // FOOTER END
-
 
 // RESPONS START
 @media (min-width: 900px) {
@@ -1162,3 +1162,5 @@ header {
     }
 }
 // LOADING END
+
+// ANIMATION START 
